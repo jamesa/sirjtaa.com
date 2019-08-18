@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>sirjtaa - join!</title>
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <div id="container">
+      <h1><a href="/">sirjtaa.com</a></h1>
+      <p>join the mailing list!</p>
+      <div>
+        <form
+          name="contact"
+          method="POST"
+          data-netlify="true"
+          action="/success.html"
+        >
+          <p>
+            <label>name: <input type="text" name="name" autofocus/></label>
+          </p>
+          <p>
+            <label>email: <input type="email" name="email"/></label>
+          </p>
+          <p>
+            <button id="button" type="submit">join</button>
+          </p>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

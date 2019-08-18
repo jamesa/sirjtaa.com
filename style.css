@@ -1,0 +1,61 @@
+body {
+  color: #333;
+  background: #eee;
+  font-family: Tahoma, Verdana, sans-serif;
+}
+
+a, a:visited, a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+#tagline, h1 {
+    color: #fff;
+}
+
+#container {
+  background: #7c9278;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  /*height: 200px;*/
+  box-shadow: 10px 10px 0 #333;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 0;
+}
+
+#button {
+  color: #333;
+  background: #fff;
+  padding: 1em;
+  margin-top: 1em;
+  box-shadow: 5px 5px 0 #333;
+  display: inline-block;
+  text-decoration: none;
+  font-family: Tahoma, Verdana, sans-serif;
+  border: 0;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+#button:hover {
+  background: #ccc;
+  text-decoration: underline;
+}
+
+input[type=text], input[type=email] {
+    width: 40%;
+    border: 0;
+    padding: .25em;
+    font-size: 1em;
+}
+
+button {
+    width: 50%;
+}
