@@ -20,7 +20,6 @@ a, a:visited, a:hover {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 500px;
-  /*height: 200px;*/
   box-shadow: 10px 10px 0 #333;
   text-align: center;
 }
@@ -58,4 +57,22 @@ input[type=text], input[type=email] {
 
 button {
     width: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background: #7c9278;
+    }
+
+    #container {
+        box-shadow: none;
+        width: 100%;
+        padding: 1em;
+        box-sizing: border-box;
+    }
+
+    input[type=text], input[type=email] {
+        width: 50%;
+    }
+
 }
