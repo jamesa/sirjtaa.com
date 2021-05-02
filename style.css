@@ -14,7 +14,7 @@ a, a:visited, a:hover {
 }
 
 #container {
-  background-color: #7c9278;
+  background: #7c9278;
   position: fixed;
   top: 50%;
   left: 50%;
