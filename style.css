@@ -5,12 +5,12 @@ body {
 }
 
 a, a:visited, a:hover {
-    color: #fff;
-    text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }
 
 #tagline, h1 {
-    color: #fff;
+  color: #fff;
 }
 
 #container {
@@ -48,31 +48,19 @@ h1 {
   text-decoration: underline;
 }
 
-input[type=text], input[type=email] {
-    width: 40%;
-    border: 0;
-    padding: .25em;
-    font-size: 1em;
-}
-
 button {
-    width: 50%;
+  width: 50%;
 }
 
 @media only screen and (max-width: 600px) {
-    body {
-        background: #7c9278;
-    }
+  body {
+    background: #7c9278;
+  }
 
-    #container {
-        box-shadow: none;
-        width: 100%;
-        padding: 1em;
-        box-sizing: border-box;
-    }
-
-    input[type=text], input[type=email] {
-        width: 50%;
-    }
-
+  #container {
+    box-shadow: none;
+    width: 100%;
+    padding: 1em;
+    box-sizing: border-box;
+  }
 }
